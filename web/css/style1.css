@@ -1,0 +1,79 @@
+.navbar-inverse{
+	background: #2ECCFA;
+	border: none;
+	box-shadow: 2px 2px 10px black;
+}
+.navbar .navbar-brand{
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-right li a{
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-right li a:hover{
+	background: #28373f;
+}
+.mar-1{
+	padding: 10px;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-2{
+	padding: 10px;
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-3{
+	color: black;
+	cursor: pointer;
+	height: 300px;
+}
+.container .col-md-4 .panel-default{
+	height: 230px;
+	border: none;
+	box-shadow: 0px 5px 0px #31B404;
+}
+.container .col-md-4 .panel-default .panel-heading{
+	background-color: #31B404;
+	color: white;
+	text-align: center;
+}
+.container .col-md-4 .panel-default .panel-body{
+	text-align: center;
+	border: none;
+}
+.container .col-sm-4 .panel-default{
+	border: none;
+	box-shadow: 0px 5px 0px #FFBF00;
+}
+.container .col-sm-4 .panel-default .panel-heading{
+	background-color: #FFBF00;
+	color: white;
+	text-align: center;
+}
+.container .col-sm-6 .panel-default{
+	border: none;
+	box-shadow: 0px 5px 0px #FF0000;
+}
+.container .col-sm-6 .panel-default .panel-heading{
+	background-color: #FF0000;
+	color: white;
+	text-align: center;
+}
+.footer{
+	margin-top: 30px;
+	padding: 10px;
+	background: black;
+}
+.footer p{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.footer p a{
+	color: orange;
+	font-weight: bold;
+}

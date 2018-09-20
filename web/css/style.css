@@ -1,0 +1,163 @@
+
+.navbar-inverse{
+	background: #2ECCFA;
+	border: none;
+	box-shadow: 2px 2px 10px black;
+}
+.navbar .navbar-brand{
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-right li a{
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-right li a:hover{
+    background: #28373f;
+}
+.navbar .navbar-right .dropdown .dropdown-menu{
+    width: 10%;
+    left: 0px;
+    background: #2ECCFA;
+}
+.navbar .navbar-right .dropdown .dropdown-menu li a{
+    padding: 15px;
+}
+.container .carousel .carousel-inner img{
+	width: 100%;
+	height: 300px;
+}
+.mar-1{
+	padding: 10px;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-2{
+	padding: 10px;
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-3{
+	padding: 10px;
+	color: green;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-4{
+	color: black;
+	cursor: pointer;
+	height: 300px;
+}
+.mar-5{
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: -15px;
+}
+.container .col-md-2 .panel-default{
+	border: none;
+	box-shadow: 0px 5px 0px grey;
+	margin-top: 20px;
+}
+.container .col-md-2 .panel-default .panel-heading{
+	background: #28373f;
+	color: white;
+	text-align: center;
+}
+.container .col-md-2{
+	text-align: center;
+}
+.container .col-md-2 p{
+    width: 90px;
+	padding: 10px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+	margin-top: 20px;
+}
+.container .col-md-2 p a{
+	color: white;
+}
+.container .col-md-2 p:hover{
+    background:red; 
+    opacity: 1;
+    -webkit-animation-name: none;
+    /* should be set to 100% opacity as soon as the mouse enters the box; when the mouse exits the box, the original animation should resume. */
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 50px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 50px;}
+}
+
+.container .col-md-4 .panel-default{
+	height: 230px;
+	border: none;
+	box-shadow: 0px 5px 0px grey;
+}
+.container .col-md-4 .panel-default .panel-heading{
+	background: #28373f;
+	color: white;
+	text-align: center;
+}
+.container .col-md-4 .panel-default .panel-body{
+	text-align: center;
+	border: none;
+}
+.container .col-sm-4 .panel-default{
+	border: none;
+	box-shadow: 0px 5px 0px grey;
+}
+.container .col-sm-4 .panel-default .panel-heading{
+	background-color: #28373f;
+	color: white;
+	text-align: center;
+}
+.container .col-sm-6 .panel-default{
+	border: none;
+	box-shadow: 0px 5px 0px grey;
+}
+.container .col-sm-6 .panel-default .panel-heading{
+	background-color: #28373f;
+	color: white;
+	text-align: center;
+}
+.footer{
+	padding: 10px;
+	background: #28373f;
+}
+.footer p{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.footer p a{
+	color: orange;
+	font-weight: bold;
+}
